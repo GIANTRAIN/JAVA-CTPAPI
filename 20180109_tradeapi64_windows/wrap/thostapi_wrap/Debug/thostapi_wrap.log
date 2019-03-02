@@ -1,0 +1,25 @@
+﻿Build started 2019/3/2 16:41:34.
+     1>Project "D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D THOSTAPI_WRAP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt thostapi_wrap.cpp
+         thostapi_wrap.cpp
+     1>d:\java-ctpapi\20180109_tradeapi64_windows\wrap\thostapi_wrap\iconv.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Debug\thostapi_wrap.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Debug\thostapi_wrap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Debug\thostapi_wrap.lib" /MACHINE:X86 /DLL Debug\thostapi_wrap.obj
+         libiconv.lib
+         thostmduserapi.lib
+         thosttraderapi.lib
+            Creating library D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Debug\thostapi_wrap.lib and object D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Debug\thostapi_wrap.exp
+     1>thostapi_wrap.obj : error LNK2019: unresolved external symbol "public: static class CThostFtdcMdApi * __cdecl CThostFtdcMdApi::CreateFtdcMdApi(char const *,bool,bool)" (?CreateFtdcMdApi@CThostFtdcMdApi@@SAPAV1@PBD_N1@Z) referenced in function _Java_ctp_thostapi_thosttraderapiJNI_CThostFtdcMdApi_1CreateFtdcMdApi_1_1SWIG_10@20
+     1>thostapi_wrap.obj : error LNK2019: unresolved external symbol "public: static char const * __cdecl CThostFtdcMdApi::GetApiVersion(void)" (?GetApiVersion@CThostFtdcMdApi@@SAPBDXZ) referenced in function _Java_ctp_thostapi_thosttraderapiJNI_CThostFtdcMdApi_1GetApiVersion@8
+     1>thostapi_wrap.obj : error LNK2019: unresolved external symbol "public: static class CThostFtdcTraderApi * __cdecl CThostFtdcTraderApi::CreateFtdcTraderApi(char const *)" (?CreateFtdcTraderApi@CThostFtdcTraderApi@@SAPAV1@PBD@Z) referenced in function _Java_ctp_thostapi_thosttraderapiJNI_CThostFtdcTraderApi_1CreateFtdcTraderApi_1_1SWIG_10@12
+     1>thostapi_wrap.obj : error LNK2019: unresolved external symbol "public: static char const * __cdecl CThostFtdcTraderApi::GetApiVersion(void)" (?GetApiVersion@CThostFtdcTraderApi@@SAPBDXZ) referenced in function _Java_ctp_thostapi_thosttraderapiJNI_CThostFtdcTraderApi_1GetApiVersion@8
+     1>thostapi_wrap.obj : error LNK2019: unresolved external symbol _libiconv_open referenced in function _Java_ctp_thostapi_thosttraderapiJNI_CThostFtdcAccountPropertyField_1AccountID_1get@20
+     1>thostapi_wrap.obj : error LNK2019: unresolved external symbol _libiconv referenced in function _Java_ctp_thostapi_thosttraderapiJNI_CThostFtdcAccountPropertyField_1AccountID_1get@20
+     1>thostapi_wrap.obj : error LNK2019: unresolved external symbol _libiconv_close referenced in function _Java_ctp_thostapi_thosttraderapiJNI_CThostFtdcAccountPropertyField_1AccountID_1get@20
+     1>D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Debug\thostapi_wrap.dll : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.68

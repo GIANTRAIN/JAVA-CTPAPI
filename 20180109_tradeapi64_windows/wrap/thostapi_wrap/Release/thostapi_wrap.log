@@ -1,0 +1,21 @@
+﻿Build started 2019/3/2 16:42:53.
+     1>Project "D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Release\thostapi_wrap.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Release\thostapi_wrap.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Release\thostapi_wrap.lib" /MACHINE:X86 /SAFESEH /DLL Release\thostapi_wrap.obj
+         libiconv.lib
+         thostmduserapi.lib
+         thosttraderapi.lib
+            Creating library D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Release\thostapi_wrap.lib and object D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Release\thostapi_wrap.exp
+     1>thostapi_wrap.obj : error LNK2001: unresolved external symbol _libiconv_close
+     1>thostapi_wrap.obj : error LNK2001: unresolved external symbol "public: static char const * __cdecl CThostFtdcTraderApi::GetApiVersion(void)" (?GetApiVersion@CThostFtdcTraderApi@@SAPBDXZ)
+     1>thostapi_wrap.obj : error LNK2001: unresolved external symbol "public: static class CThostFtdcTraderApi * __cdecl CThostFtdcTraderApi::CreateFtdcTraderApi(char const *)" (?CreateFtdcTraderApi@CThostFtdcTraderApi@@SAPAV1@PBD@Z)
+     1>thostapi_wrap.obj : error LNK2001: unresolved external symbol _libiconv_open
+     1>thostapi_wrap.obj : error LNK2001: unresolved external symbol "public: static char const * __cdecl CThostFtdcMdApi::GetApiVersion(void)" (?GetApiVersion@CThostFtdcMdApi@@SAPBDXZ)
+     1>thostapi_wrap.obj : error LNK2001: unresolved external symbol "public: static class CThostFtdcMdApi * __cdecl CThostFtdcMdApi::CreateFtdcMdApi(char const *,bool,bool)" (?CreateFtdcMdApi@CThostFtdcMdApi@@SAPAV1@PBD_N1@Z)
+     1>thostapi_wrap.obj : error LNK2001: unresolved external symbol _libiconv
+     1>D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\Release\thostapi_wrap.dll : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.55

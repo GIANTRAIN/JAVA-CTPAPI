@@ -1,0 +1,22 @@
+﻿Build started 2019/3/2 16:27:47.
+     1>Project "D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D THOSTAPI_WRAP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt thostapi_wrap.cpp
+         thostapi_wrap.cpp
+     1>d:\java-ctpapi\20180109_tradeapi64_windows\wrap\thostapi_wrap\iconv.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.lib" /MACHINE:X64 /DLL x64\Release\thostapi_wrap.obj
+         libiconv.lib
+         thostmduserapi.lib
+         thosttraderapi.lib
+            Creating library D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.lib and object D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.exp
+         Generating code
+         Finished generating code
+     1>libiconv.lib(iconv.obj) : warning LNK4204: 'D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libiconv.lib(localcharset.obj) : warning LNK4204: 'D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         thostapi_wrap.vcxproj -> D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.dll
+     1>Done Building Project "D:\JAVA-CTPAPI\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.80
